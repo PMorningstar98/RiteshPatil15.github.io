@@ -3,6 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -14,19 +15,28 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 2em;
 }
 
-section#projects {
+header p {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
+
+section {
     padding: 2em;
+    background: #fff;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project {
-    margin-bottom: 2em;
+#projects .project {
+    margin-bottom: 1.5em;
 }
 
-.project img {
-    max-width: 100%;
-    height: auto;
+#projects .project h3 {
+    margin: 0.2em 0;
 }
 
 footer {
@@ -34,7 +44,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
